@@ -56,8 +56,6 @@ Kafka como o intermediário de mensagens
 Front-end angular para recebimento e manipulação de eventos do lado do servidor.
 
 Participantes: 
-https://github.com/dfredmota
-https://github.com/Esmayk
-https://github.com/GCPBigData
+
 
 
