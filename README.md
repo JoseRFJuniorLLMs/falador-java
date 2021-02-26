@@ -4,7 +4,7 @@
 ![fork](https://github.com/GCPBigData/sisvida-reativo-back/workflows/CI/badge.svg?branch=master&event=fork)
 ![CI](https://github.com/GCPBigData/sisvida-reativo-back/workflows/CI/badge.svg)
 
-# Sistema Vida - Precisão em Compreensão de imagem.
+# Falador
 
 ![](/sisvida-reative/img/vida.jpeg)
 
@@ -28,7 +28,7 @@ O que é Kafka Reativo?
 
 O Kafka reativo é uma API reativa para o Kafka, baseada no projeto Reactor e na API do produtor / consumidor do Kafka. Ele permite que os dados sejam publicados e consumidos do Kafka usando API funcional com contrapressão sem bloqueio e baixos custos indiretos, o que permite que o Kafka reativo seja integrado a outros sistemas de reatores e forneça um pipeline reativo de ponta a ponta.
 
-Sistema Vida
+Falador
 Eventos enviados pelo servidor
 Servidor WebFlux usando a estrutura Spring WebFlux e Kafka reativo, que expõe uma API REST para que os clientes façam solicitações HTTP seguras. Depois que uma conexão segura é estabelecida entre o cliente e o servidor de fluxo da web, ela consome mensagens dos tópicos do Kafka e envia os dados de forma assíncrona sem fechar a conexão com o cliente, a menos que seja necessário.
 
@@ -60,5 +60,4 @@ https://github.com/dfredmota
 https://github.com/Esmayk
 https://github.com/GCPBigData
 
-......................
-# falador-java
+
