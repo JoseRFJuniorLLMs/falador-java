@@ -1,0 +1,12 @@
+$ bin/zookeeper-server-start.sh config/zookeeper.properties
+$ bin/kafka-server-start.sh config/server.properties
+$ bin/kafka-topics.sh — create — bootstrap-server localhost:9092 — replication-factor 1 — partitions 1 — topic <topic_name>
+$ bin/kafka-topics.sh — list — bootstrap-server localhost:9092
+
+Em seguida, vamos executar o aplicativo Spring-boot no localhost: 8080 e
+ fazer uma solicitação de amostra para este servidor usando um comando curl no terminal,
+ que mantém a conexão ativa.
+
+ curl — location — request GET 'localhost:8080/sse' \
+  — header 'Content-Type: text/event-stream;charset=UTF-8' \
+  — header 'Accept: text/event-stream;charset=UTF-8'

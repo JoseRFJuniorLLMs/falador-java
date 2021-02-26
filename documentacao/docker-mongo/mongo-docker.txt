@@ -1,0 +1,20 @@
+Baixando o MongoDB
+docker pull mongo
+
+Verifica as imagens baixadas
+docker images
+
+Rodando no Docker o MongoDB
+docker run -it --name mongo-springboot -p 27017:27017 -d mongo
+
+Verificando os Contêineres
+docker ps -a docker stats
+
+Executando MongoDB
+docker exec -it mongo-springboot mongo admin
+
+Parando, Restartando, Apagando MongoDB
+docker stop mongo docker restart mongo docker rm mongo
+
+Parando MongoDB
+docker stop mongo-springboot

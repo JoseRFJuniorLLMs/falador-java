@@ -1,0 +1,12 @@
+{
+  "runtime":{
+    "majorVersion": "8"
+  },
+  "command": "java -jar sisvida-1.0-SNAPSHOT.jar",
+  "release": {
+    "build": "20170113Build",
+    "commit": "commitString",
+    "version": "20170113Version"
+  },
+  "notes": "REST app for testing"
+}
